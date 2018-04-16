@@ -1,5 +1,5 @@
 # Getting and Cleaning Data Course Project_Coursera
-### This repo include four files, including README.md, CodeBook.md, run_analysis.R and tidy.txt, the R script achieves:
+### This repo includes four files: README.md, CodeBook.md, run_analysis.R and tidy.txt, the R script achieves:
 
 * Load the activity_labels and features data
 * Keep only the mean and standard deviation columns in dataset
