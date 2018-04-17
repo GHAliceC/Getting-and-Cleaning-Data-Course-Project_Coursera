@@ -6,3 +6,4 @@
 * Load both the training and test datasets and keep those columns which measure mean and standard deviation
 * merge datasets and attach corresponding labels to each column
 * create a new dataset called "tidy.txt"
+* create a code book describing the variables and summary of the content
