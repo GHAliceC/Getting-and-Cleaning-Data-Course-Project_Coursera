@@ -14,8 +14,8 @@ features <- as.character(features_info[,2])
 ## keep only mean and standard deviation measurements among all features
 featuresSelected <- grep("mean|std", features)
 featuresnames <- features_info[featuresSelected, 2]
-featuresnames = gsub("-mean", "Mean", featuresnames)
-featuresnames = gsub("-std", "Std", featuresnames)
+featuresnames <- gsub("-mean", "Mean", featuresnames)
+featuresnames <- gsub("-std", "Std", featuresnames)
 
 ## load training and test datasets with selected features columns
 train_X <- read.table(file = "./train/X_train.txt")[featuresSelected]
